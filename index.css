@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Secular One', sans-serif;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 47px;
+    font-weight: bolder;
+    margin: 0 0;
+    padding: 11px 7px;
+}
+
+header{
+    /* display: inline-block; */
+    box-shadow: 0px 7px 7px grey;
+    /* padding: 12px 36px; */
+    background-color: black;
+
+}
+
+.nav-bar{
+    background-color: black;
+    display: flex;                 /* Changed */
+    width: 100%;                   /* Changed */
+    
+}
+
+.nav-item1{
+    /* text-align: center; */
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 74px;
+    color:white;
+    background-color: black;
+    font-weight: bolder;
+    
+    text-align: center;
+    border-right: 4px solid white;     
+    width: 50%;        
+    
+    
+}
+
+.nav-item2{
+    
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 74px;
+    color:white;
+    background-color: black;
+    font-weight: bolder;
+    
+    text-align: center;
+    border-left: 4px solid white;
+    width: 50%;
+    
+ 
+    
+}
+
+
+.nav-item1:hover{
+    background-color: #F0131E;
+    color: #FFFFFF;
+}
+.nav-item2:hover{
+    background-color: #0476F2;
+    color: #FFFFFF;
+}
+
+.nav-bar .nav-item1:active, .nav-item2:active{
+    color: blueviolet;
+    background-color: black;
+}
+    
+.nav-bar .nav-item1:visited, .nav-item2:visited{
+
+    color: blueviolet;
+}
+    
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+
+
+
+#part-1{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row;   default    */
+    flex-wrap: wrap;
+    
+}
+
+.section-1{
+    background-color: black;
+    margin: 7px 7px 0px 7px;
+    border-radius: 34px;
+
+    /* width: calc(25% - 3px - 14px); */
+    width: calc(25% - 14px);
+    /* display: inline-block; */
+    
+}
+
+.picture-grid1{
+   
+    width: 100%;
+    border-radius: 34px;
+    
+    
+}
+
+.picture-grid1:hover{                                /* Changes animation copied */
+    transform: scale(1.2);
+    transition: transform .7s ease; 
+}
+
+#part-2{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row;   default    */
+    flex-wrap: wrap;
+    
+}
+
+
+
+.section-2{
+
+    background-color: black;
+    margin: 7px 7px 0px 7px;
+    border-radius: 34px;
+
+    width: calc(25% - 14px);
+    /* display: inline-block; */
+
+    
+ 
+
+}
+
+.picture-grid2{
+
+    width: 100%;
+    border-radius: 34px;
+
+}
+
+.picture-grid2:hover{                       /* Changes animation copied */
+    transform: scale(1.2);
+    transition: transform .7s ease; 
+}
+
+
+
+iframe{
+    width: 100%;
+    /* height: 150%;       Why we cannot give height in % after giving width in %*/
+    height: 547px;
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+hr{ 
+    width: 100%;
+    box-shadow: 0px 0px 74px grey; /* not working */
+}
